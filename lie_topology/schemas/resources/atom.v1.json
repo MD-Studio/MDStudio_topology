@@ -1,0 +1,360 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "type": "object",
+    "description": "The proper format of an atom",
+    "properties": {
+        "uid": {
+            "type": "string",
+            "description": "unique identifier"
+        },
+        "name": {
+            "type": "string",
+            "description": "atom name",
+            "minLength": 1,
+            "maxLength": 4
+        },
+        "reference": {
+            "type": "integer",
+            "description": "reference number often used in structure formats"
+        },
+        "element": {
+            "type": "string",
+            "description": "element of the atom",
+            "enum": [
+                "H",
+                "He",
+                "Li",
+                "Be",
+                "B",
+                "C",
+                "N",
+                "O",
+                "F",
+                "Ne",
+                "Na",
+                "Mg",
+                "Al",
+                "Si",
+                "P",
+                "S",
+                "Cl",
+                "Ar",
+                "K",
+                "Ca",
+                "Sc",
+                "Ti",
+                "V",
+                "Cr",
+                "Mn",
+                "Fe",
+                "Co",
+                "Ni",
+                "Cu",
+                "Zn",
+                "Ga",
+                "Ge",
+                "As",
+                "Se",
+                "Br",
+                "Kr",
+                "Rb",
+                "Sr",
+                "Y",
+                "Zr",
+                "Nb",
+                "Mo",
+                "Tc",
+                "Ru",
+                "Rh",
+                "Pd",
+                "Ag",
+                "Cd",
+                "In",
+                "Sn",
+                "Sb",
+                "Te",
+                "I",
+                "Xe",
+                "Cs",
+                "Ba",
+                "La",
+                "Ce",
+                "Pr",
+                "Nd",
+                "Pm",
+                "Sm",
+                "Eu",
+                "Gd",
+                "Tb",
+                "Dy",
+                "Ho",
+                "Er",
+                "Tm",
+                "Yb",
+                "Lu",
+                "Hf",
+                "Ta",
+                "W",
+                "Re",
+                "Os",
+                "Ir",
+                "Pt",
+                "Au",
+                "Hg",
+                "Tl",
+                "Pb",
+                "Bi",
+                "Po",
+                "At",
+                "Rn",
+                "Fr",
+                "Ra",
+                "Ac",
+                "Th",
+                "Pa",
+                "U",
+                "Np",
+                "Pu",
+                "Am",
+                "Cm",
+                "Bk",
+                "Cf",
+                "Es",
+                "Fm",
+                "Md",
+                "No",
+                "Lr",
+                "Rf",
+                "Db",
+                "Sg",
+                "Bh",
+                "Hs",
+                "Mt"
+            ]
+        },
+        "sybyl": {
+            "type": "string",
+            "description": "sybyl type",
+            "enum": [
+                "H",
+                "C.1",
+                "C.2",
+                "C.3",
+                "C.ar",
+                "N.1",
+                "N.2",
+                "N.3",
+                "N.pl3",
+                "N.am",
+                "N.ar",
+                "O.2",
+                "O.3",
+                "O.co2",
+                "S.2",
+                "S.3",
+                "S.o",
+                "S.o2",
+                "P.3",
+                "He",
+                "Li",
+                "Be",
+                "B",
+                "F",
+                "Ne",
+                "Na",
+                "Mg",
+                "Al",
+                "Si",
+                "Cl",
+                "Ar",
+                "K",
+                "Ca",
+                "Sc",
+                "Ti",
+                "V",
+                "Cr",
+                "Mn",
+                "Fe",
+                "Co",
+                "Ni",
+                "Cu",
+                "Zn",
+                "Ga",
+                "Ge",
+                "As",
+                "Se",
+                "Br",
+                "Kr",
+                "Rb",
+                "Sr",
+                "Y",
+                "Zr",
+                "Nb",
+                "Mo",
+                "Tc",
+                "Ru",
+                "Rh",
+                "Pd",
+                "Ag",
+                "Cd",
+                "In",
+                "Sn",
+                "Sb",
+                "Te",
+                "I",
+                "Xe",
+                "Cs",
+                "Ba",
+                "La",
+                "Ce",
+                "Pr",
+                "Nd",
+                "Pm",
+                "Sm",
+                "Eu",
+                "Gd",
+                "Tb",
+                "Dy",
+                "Ho",
+                "Er",
+                "Tm",
+                "Yb",
+                "Lu",
+                "Hf",
+                "Ta",
+                "W",
+                "Re",
+                "Os",
+                "Ir",
+                "Pt",
+                "Au",
+                "Hg",
+                "Tl",
+                "Pb",
+                "Bi",
+                "Po",
+                "At",
+                "Rn",
+                "Fr",
+                "Ra",
+                "Ac",
+                "Th",
+                "Pa",
+                "U",
+                "Np",
+                "Pu",
+                "Am",
+                "Cm",
+                "Bk",
+                "Cf",
+                "Es",
+                "Fm",
+                "Md",
+                "No",
+                "Lr",
+                "Rf",
+                "Db",
+                "Sg",
+                "Bh",
+                "Hs",
+                "Mt"
+            ]
+        },
+        "parameters":
+        {
+            "mass": {
+                "oneOf": [
+                    {
+                        "type": "number",
+                        "minimum": 0.0,
+                        "description": "atomic mass (amu)"
+                    },
+                    {
+                        "$ref": "resource://mdgroup/topology/reference/v1"
+                    }
+                ]
+            },
+            "partialCharge": {
+                "oneOf": [
+                    {
+                        "type": "number",
+                        "description": "radial charge (e)"
+                    },
+                    {
+                        "$ref": "resource://mdgroup/topology/reference/v1"
+                    }
+                ]
+            },
+            "chargeGroup": {
+                "oneOf": [
+                    {
+                        "type": "integer",
+                        "minimum": 0,
+                        "description": "molecular charge group index"
+                    },
+                    {
+                        "$ref": "resource://mdgroup/topology/reference/v1"
+                    }
+                ]
+            },
+            "polarizability": {
+                "oneOf": [
+                    {
+                        "type": "number",
+                        "minimum": 0,
+                        "description": "polarizability of the atom (nm^3)"
+                    },
+                    {
+                        "$ref": "resource://mdgroup/topology/reference/v1"
+                    }
+                ]
+            },
+            "cosCharge": {
+                "oneOf": [
+                    {
+                        "type": "number",
+                        "description": "charge on the cos particle (e)"
+                    },
+                    {
+                        "$ref": "resource://mdgroup/topology/reference/v1"
+                    }
+                ]
+            },
+            "vdwType": {
+                "$ref": "resource://mdgroup/topology/reference/v1"
+            }
+        },
+        "state": {
+            "position": {
+                "$ref": "resource://mdgroup/topology/vec3/v1"
+            },
+            "velocity": {
+                "$ref": "resource://mdgroup/topology/vec3/v1"
+            },
+            "force": {
+                "$ref": "resource://mdgroup/topology/vec3/v1"
+            },
+            "cosOffset": {
+                "$ref": "resource://mdgroup/topology/vec3/v1"
+            }
+        },
+        "experiment": {
+            "occupancy": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1,
+                "description": "crystallographic occupancy"
+            },
+            "bFactor": {
+                "type": "number",
+                "minimum": 0,
+                "description": "crystallographic b-factor"
+            }
+        }
+    },
+    "required": [
+        "uid",
+        "name"
+    ],
+    "additionalProperties": false
+}
