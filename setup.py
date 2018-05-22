@@ -39,7 +39,7 @@ setup(
     packages=find_packages(),
     package_data={'lie_topology': ['data/*']},
     py_modules=[distribution_name],
-    install_requires=['mdstudio', 'numpy'],
+    install_requires=['mdstudio', 'numpy','lie_graph'],
     include_package_data=False,
     zip_safe=True,
     classifiers=[

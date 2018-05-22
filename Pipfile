@@ -6,11 +6,5 @@ name = "pypi"
 [packages]
 mdstudio = {path = "../../mdstudio/", editable = true}
 local = {path = "./", editable = true}
-
-mdstudio = {path = "../../mdstudio/", editable = true}
-local = {path = "./", editable = true}
-cerise_client = ">=0.2.4"
+lie_graph = "*"
 numpy = "*"
-pyparsing = "*"
-panedr = ">=0.2"
-retrying = ">=1.3.3"
