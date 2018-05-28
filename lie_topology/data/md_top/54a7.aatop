@@ -6,35 +6,30 @@ variant_blueprints:
         vdw-type: NL
         mass-type: N
         charge: 0.12900
-        charge-type: null
         charge-group: 0
       - src-key: H
         dst-key: H3
         vdw-type: H
         mass-type: H
         charge: 0.24800
-        charge-type: null
         charge-group: 0
       - src-key: CA
         dst-key: CA
         vdw-type: CH1
         mass-type: CH1
         charge: 0.12700
-        charge-type: null
         charge-group: 0
     add:
       H1: 
         vdw-type: H
         mass-type: H
         charge: 0.24800
-        charge-type: null
         charge-group: 0
         status: preceding
       H2: 
         vdw-type: H
         mass-type: H
         charge: 0.24800
-        charge-type: null
         charge-group: 0
         status: preceding
     bonds:
@@ -79,21 +74,18 @@ variant_blueprints:
         vdw-type: C
         mass-type: C
         charge: 0.27000
-        charge-type: null
         charge-group: 2
       - src-key: O
         dst-key: O1
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 2
     add:
       O2:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 2
         status: trailing
     bonds:
@@ -141,37 +133,31 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 2
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 2
     bonds:
       - indices: [ N, H ]
@@ -232,103 +218,86 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CD:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.09000
-        charge-type: null
         charge-group: 2
       NE:
         vdw-type: NE
         mass-type: N
         charge: -0.11000
-        charge-type: null
         charge-group: 2
       HE:
         vdw-type: H
         mass-type: H
         charge: 0.24000
-        charge-type: null
         charge-group: 2
       CZ:
         vdw-type: C
         mass-type: C
         charge: 0.34000
-        charge-type: null
         charge-group: 2
       NH1:
         vdw-type: NZ
         mass-type: N
         charge: -0.26000
-        charge-type: null
         charge-group: 2
       HH11:
         vdw-type: H
         mass-type: H
         charge: 0.24000
-        charge-type: null
         charge-group: 2
       HH12:
         vdw-type: H
         mass-type: H
         charge: 0.24000
-        charge-type: null
         charge-group: 2
       NH2:
         vdw-type: NZ
         mass-type: N
         charge: -0.26000
-        charge-type: null
         charge-group: 2
       HH21:
         vdw-type: H
         mass-type: H
         charge: 0.24000
-        charge-type: null
         charge-group: 2
       HH22:
         vdw-type: H
         mass-type: H
         charge: 0.24000
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -463,97 +432,81 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       CD:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       NE:
         vdw-type: NE
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 3
       HE:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 3
       CZ:
         vdw-type: C
         mass-type: C
         charge: 0.26600
-        charge-type: null
         charge-group: 4
       NH1:
         vdw-type: NE
         mass-type: N
         charge: -0.67400
-        charge-type: null
         charge-group: 4
       HH1:
         vdw-type: H
         mass-type: H
         charge: 0.40800
-        charge-type: null
         charge-group: 4
       NH2:
         vdw-type: NZ
         mass-type: N
         charge: -0.88000
-        charge-type: null
         charge-group: 5
       HH21:
         vdw-type: H
         mass-type: H
         charge: 0.44000
-        charge-type: null
         charge-group: 5
       HH22:
         vdw-type: H
         mass-type: H
         charge: 0.44000
-        charge-type: null
         charge-group: 5
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 6
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 6
     bonds:
       - indices: [ N, H ]
@@ -680,67 +633,56 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: C
         mass-type: C
         charge: 0.29000
-        charge-type: null
         charge-group: 2
       OD1:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 2
       ND2:
         vdw-type: NT
         mass-type: N
         charge: -0.72000
-        charge-type: null
         charge-group: 2
       HD21:
         vdw-type: H
         mass-type: H
         charge: 0.44000
-        charge-type: null
         charge-group: 2
       HD22:
         vdw-type: H
         mass-type: H
         charge: 0.44000
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -835,67 +777,56 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: C
         mass-type: C
         charge: 0.29000
-        charge-type: null
         charge-group: 2
       OD1:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 2
       ND2:
         vdw-type: NL
         mass-type: N
         charge: -0.72000
-        charge-type: null
         charge-group: 2
       HD21:
         vdw-type: H
         mass-type: H
         charge: 0.44000
-        charge-type: null
         charge-group: 2
       HD22:
         vdw-type: H
         mass-type: H
         charge: 0.44000
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -990,55 +921,46 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: C
         mass-type: C
         charge: 0.27000
-        charge-type: null
         charge-group: 2
       OD1:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 2
       OD2:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -1119,61 +1041,51 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: C
         mass-type: C
         charge: 0.33000
-        charge-type: null
         charge-group: 2
       OD1:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 2
       OD2:
         vdw-type: OA
         mass-type: O
         charge: -0.28800
-        charge-type: null
         charge-group: 2
       HD2:
         vdw-type: H
         mass-type: H
         charge: 0.40800
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -1260,43 +1172,36 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: -0.10000
-        charge-type: null
         charge-group: 2
       SG:
         vdw-type: S
         mass-type: S
         charge: -0.40000
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -1363,49 +1268,41 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.15000
-        charge-type: null
         charge-group: 2
       SG:
         vdw-type: S
         mass-type: S
         charge: -0.37000
-        charge-type: null
         charge-group: 2
       HG:
         vdw-type: H
         mass-type: H
         charge: 0.22000
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -1477,43 +1374,36 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       SG:
         vdw-type: S
         mass-type: S
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 2
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 2
     bonds:
       - indices: [ N, H ]
@@ -1591,43 +1481,36 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       SG:
         vdw-type: S
         mass-type: S
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 2
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 2
     bonds:
       - indices: [ N, H ]
@@ -1694,73 +1577,61 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CD:
         vdw-type: C
         mass-type: C
         charge: 0.29000
-        charge-type: null
         charge-group: 2
       OE1:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 2
       NE2:
         vdw-type: NT
         mass-type: N
         charge: -0.72000
-        charge-type: null
         charge-group: 2
       HE21:
         vdw-type: H
         mass-type: H
         charge: 0.44000
-        charge-type: null
         charge-group: 2
       HE22:
         vdw-type: H
         mass-type: H
         charge: 0.44000
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -1861,61 +1732,51 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CD:
         vdw-type: C
         mass-type: C
         charge: 0.27000
-        charge-type: null
         charge-group: 2
       OE1:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 2
       OE2:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -2002,67 +1863,56 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CD:
         vdw-type: C
         mass-type: C
         charge: 0.33000
-        charge-type: null
         charge-group: 2
       OE1:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 2
       OE2:
         vdw-type: OA
         mass-type: O
         charge: -0.28800
-        charge-type: null
         charge-group: 2
       HE2:
         vdw-type: H
         mass-type: H
         charge: 0.40800
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -2155,31 +2005,26 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 2
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 2
     bonds:
       - indices: [ N, H ]
@@ -2232,85 +2077,71 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       ND1:
         vdw-type: NR
         mass-type: N
         charge: -0.05000
-        charge-type: null
         charge-group: 2
       HD1:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 2
       CD2:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       HD2:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 2
       CE1:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       HE1:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 2
       NE2:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -2446,85 +2277,71 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       ND1:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 2
       CD2:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       HD2:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 2
       CE1:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       HE1:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 2
       NE2:
         vdw-type: NR
         mass-type: N
         charge: -0.05000
-        charge-type: null
         charge-group: 2
       HE2:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -2661,91 +2478,76 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: C
         mass-type: C
         charge: -0.05000
-        charge-type: null
         charge-group: 2
       ND1:
         vdw-type: NR
         mass-type: N
         charge: 0.38000
-        charge-type: null
         charge-group: 2
       HD1:
         vdw-type: H
         mass-type: H
         charge: 0.30000
-        charge-type: null
         charge-group: 2
       CD2:
         vdw-type: C
         mass-type: C
         charge: -0.10000
-        charge-type: null
         charge-group: 2
       HD2:
         vdw-type: HC
         mass-type: H
         charge: 0.10000
-        charge-type: null
         charge-group: 2
       CE1:
         vdw-type: C
         mass-type: C
         charge: -0.34000
-        charge-type: null
         charge-group: 2
       HE1:
         vdw-type: HC
         mass-type: H
         charge: 0.10000
-        charge-type: null
         charge-group: 2
       NE2:
         vdw-type: NR
         mass-type: N
         charge: 0.31000
-        charge-type: null
         charge-group: 2
       HE2:
         vdw-type: H
         mass-type: H
         charge: 0.30000
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -2889,85 +2691,71 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       ND1:
         vdw-type: NR
         mass-type: N
         charge: -0.05000
-        charge-type: null
         charge-group: 2
       HD1:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 2
       CD2:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       HD2:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 2
       CE1:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       HE1:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 2
       NE2:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ NE2, ^FE ]
@@ -3118,85 +2906,71 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       ND1:
         vdw-type: NR
         mass-type: N
         charge: -0.05000
-        charge-type: null
         charge-group: 2
       HD1:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 2
       CD2:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       HD2:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 2
       CE1:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       HE1:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 2
       NE2:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ NE2, ^FE ]
@@ -3345,55 +3119,46 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: 0.00000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2r
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.26600
-        charge-type: null
         charge-group: 2
       OD1:
         vdw-type: OA
         mass-type: O
         charge: -0.67400
-        charge-type: null
         charge-group: 2
       HD1:
         vdw-type: H
         mass-type: H
         charge: 0.40800
-        charge-type: null
         charge-group: 2
       CD2:
         vdw-type: CH2r
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 3
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 4
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 4
     bonds:
       - indices: [ N, CA ]
@@ -3486,55 +3251,46 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       CG1:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       CG2:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       CD:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -3615,55 +3371,46 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       CD1:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       CD2:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -3744,73 +3491,61 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       CD:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       CE:
         vdw-type: CH2
         mass-type: CH2
         charge: -0.24000
-        charge-type: null
         charge-group: 3
       NZ:
         vdw-type: NT
         mass-type: N
         charge: -0.64000
-        charge-type: null
         charge-group: 3
       HZ1:
         vdw-type: H
         mass-type: H
         charge: 0.44000
-        charge-type: null
         charge-group: 3
       HZ2:
         vdw-type: H
         mass-type: H
         charge: 0.44000
-        charge-type: null
         charge-group: 3
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 4
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 4
     bonds:
       - indices: [ N, H ]
@@ -3907,79 +3642,66 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       CD:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       CE:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.12700
-        charge-type: null
         charge-group: 3
       NZ:
         vdw-type: NL
         mass-type: N
         charge: 0.12900
-        charge-type: null
         charge-group: 3
       HZ1:
         vdw-type: H
         mass-type: H
         charge: 0.24800
-        charge-type: null
         charge-group: 3
       HZ2:
         vdw-type: H
         mass-type: H
         charge: 0.24800
-        charge-type: null
         charge-group: 3
       HZ3:
         vdw-type: H
         mass-type: H
         charge: 0.24800
-        charge-type: null
         charge-group: 3
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 4
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 4
     bonds:
       - indices: [ N, H ]
@@ -4084,55 +3806,46 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.24100
-        charge-type: null
         charge-group: 2
       SD:
         vdw-type: S
         mass-type: S
         charge: -0.48200
-        charge-type: null
         charge-group: 2
       CE:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.24100
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -4211,103 +3924,86 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CD1:
         vdw-type: C
         mass-type: C
         charge: -0.14000
-        charge-type: null
         charge-group: 2
       HD1:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 2
       CD2:
         vdw-type: C
         mass-type: C
         charge: -0.14000
-        charge-type: null
         charge-group: 3
       HD2:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 3
       CE1:
         vdw-type: C
         mass-type: C
         charge: -0.14000
-        charge-type: null
         charge-group: 4
       HE1:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 4
       CE2:
         vdw-type: C
         mass-type: C
         charge: -0.14000
-        charge-type: null
         charge-group: 5
       HE2:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 5
       CZ:
         vdw-type: C
         mass-type: C
         charge: -0.14000
-        charge-type: null
         charge-group: 6
       HZ:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 6
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 7
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 7
     bonds:
       - indices: [ N, H ]
@@ -4467,43 +4163,36 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: 0.00000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2r
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: CH2r
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       CD:
         vdw-type: CH2r
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, CA ]
@@ -4582,49 +4271,41 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.26600
-        charge-type: null
         charge-group: 2
       OG:
         vdw-type: OA
         mass-type: O
         charge: -0.67400
-        charge-type: null
         charge-group: 2
       HG:
         vdw-type: H
         mass-type: H
         charge: 0.40800
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, H ]
@@ -4697,55 +4378,46 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.26600
-        charge-type: null
         charge-group: 2
       OG1:
         vdw-type: OA
         mass-type: O
         charge: -0.67400
-        charge-type: null
         charge-group: 2
       HG1:
         vdw-type: H
         mass-type: H
         charge: 0.40800
-        charge-type: null
         charge-group: 2
       CG2:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 3
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 4
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 4
     bonds:
       - indices: [ N, H ]
@@ -4826,127 +4498,106 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: C
         mass-type: C
         charge: -0.21000
-        charge-type: null
         charge-group: 2
       CD1:
         vdw-type: C
         mass-type: C
         charge: -0.14000
-        charge-type: null
         charge-group: 2
       HD1:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 2
       CD2:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       NE1:
         vdw-type: NR
         mass-type: N
         charge: -0.10000
-        charge-type: null
         charge-group: 2
       HE1:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 2
       CE2:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       CE3:
         vdw-type: C
         mass-type: C
         charge: -0.14000
-        charge-type: null
         charge-group: 3
       HE3:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 3
       CZ2:
         vdw-type: C
         mass-type: C
         charge: -0.14000
-        charge-type: null
         charge-group: 4
       HZ2:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 4
       CZ3:
         vdw-type: C
         mass-type: C
         charge: -0.14000
-        charge-type: null
         charge-group: 5
       HZ3:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 5
       CH2:
         vdw-type: C
         mass-type: C
         charge: -0.14000
-        charge-type: null
         charge-group: 6
       HH2:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 6
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 7
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 7
     bonds:
       - indices: [ N, H ]
@@ -5155,109 +4806,91 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CD1:
         vdw-type: C
         mass-type: C
         charge: -0.14000
-        charge-type: null
         charge-group: 2
       HD1:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 2
       CD2:
         vdw-type: C
         mass-type: C
         charge: -0.14000
-        charge-type: null
         charge-group: 3
       HD2:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 3
       CE1:
         vdw-type: C
         mass-type: C
         charge: -0.14000
-        charge-type: null
         charge-group: 4
       HE1:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 4
       CE2:
         vdw-type: C
         mass-type: C
         charge: -0.14000
-        charge-type: null
         charge-group: 5
       HE2:
         vdw-type: HC
         mass-type: H
         charge: 0.14000
-        charge-type: null
         charge-group: 5
       CZ:
         vdw-type: C
         mass-type: C
         charge: 0.20300
-        charge-type: null
         charge-group: 6
       OH:
         vdw-type: OA
         mass-type: O
         charge: -0.61100
-        charge-type: null
         charge-group: 6
       HH:
         vdw-type: H
         mass-type: H
         charge: 0.40800
-        charge-type: null
         charge-group: 6
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 7
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 7
     bonds:
       - indices: [ N, H ]
@@ -5424,49 +5057,41 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG1:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG2:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 2
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 2
     bonds:
       - indices: [ N, H ]
@@ -5541,37 +5166,31 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 2
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 2
     bonds:
       - indices: [ N, H ]
@@ -5632,43 +5251,36 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 2
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 2
     bonds:
       - indices: [ N, H ]
@@ -5735,43 +5347,36 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 0
       H:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 2
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 2
     bonds:
       - indices: [ N, H ]
@@ -5837,85 +5442,71 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: 0.00000
-        charge-type: null
         charge-group: 0
       CN:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.26600
-        charge-type: null
         charge-group: 2
       OG1:
         vdw-type: OA
         mass-type: O
         charge: -0.67400
-        charge-type: null
         charge-group: 2
       HG1:
         vdw-type: H
         mass-type: H
         charge: 0.40800
-        charge-type: null
         charge-group: 2
       CG2:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 3
       CD1:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 3
       CD2:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 3
       CE:
         vdw-type: CR1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 4
       CZ:
         vdw-type: CR1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 4
       CH:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 4
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 5
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 5
     bonds:
       - indices: [ N, CN ]
@@ -6027,55 +5618,46 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: 0.00000
-        charge-type: null
         charge-group: 0
       CN:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       CD1:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       CD2:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 2
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 3
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 3
     bonds:
       - indices: [ N, CN ]
@@ -6155,49 +5737,41 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: 0.00000
-        charge-type: null
         charge-group: 0
       CN:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CB:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG1:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       CG2:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 2
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 2
     bonds:
       - indices: [ N, CN ]
@@ -6271,31 +5845,26 @@ solute_blueprints:
         vdw-type: N
         mass-type: N
         charge: 0.00000
-        charge-type: null
         charge-group: 0
       CN:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 0
       CA:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 2
       O:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 2
     bonds:
       - indices: [ N, CN ]
@@ -6346,151 +5915,126 @@ solute_blueprints:
         vdw-type: P_SI
         mass-type: P
         charge: 0.99000
-        charge-type: null
         charge-group: 0
       O1P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O2P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O5*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 0
       C5*:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C4*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.16000
-        charge-type: null
         charge-group: 2
       O4*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 2
       C1*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.20000
-        charge-type: null
         charge-group: 2
       N9:
         vdw-type: NR
         mass-type: N
         charge: -0.20000
-        charge-type: null
         charge-group: 3
       C4:
         vdw-type: C
         mass-type: C
         charge: 0.20000
-        charge-type: null
         charge-group: 3
       N3:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 4
       C2:
         vdw-type: C
         mass-type: C
         charge: 0.44000
-        charge-type: null
         charge-group: 4
       H2:
         vdw-type: HC
         mass-type: H
         charge: 0.10000
-        charge-type: null
         charge-group: 4
       N1:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 5
       C6:
         vdw-type: C
         mass-type: C
         charge: 0.54000
-        charge-type: null
         charge-group: 5
       N6:
         vdw-type: NT
         mass-type: N
         charge: -0.83000
-        charge-type: null
         charge-group: 6
       H61:
         vdw-type: H
         mass-type: H
         charge: 0.41500
-        charge-type: null
         charge-group: 6
       H62:
         vdw-type: H
         mass-type: H
         charge: 0.41500
-        charge-type: null
         charge-group: 6
       C5:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 7
       N7:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 7
       C8:
         vdw-type: C
         mass-type: C
         charge: 0.44000
-        charge-type: null
         charge-group: 7
       H8:
         vdw-type: HC
         mass-type: H
         charge: 0.10000
-        charge-type: null
         charge-group: 7
       C2*:
         vdw-type: CH2r
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 8
       C3*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 8
       O3*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 9
     bonds:
       - indices: [ P, O1P ]
@@ -6748,157 +6292,131 @@ solute_blueprints:
         vdw-type: P_SI
         mass-type: P
         charge: 0.99000
-        charge-type: null
         charge-group: 0
       O1P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O2P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O5*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 0
       C5*:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C4*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.16000
-        charge-type: null
         charge-group: 2
       O4*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 2
       C1*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.20000
-        charge-type: null
         charge-group: 2
       N9:
         vdw-type: NR
         mass-type: N
         charge: -0.20000
-        charge-type: null
         charge-group: 3
       C4:
         vdw-type: C
         mass-type: C
         charge: 0.20000
-        charge-type: null
         charge-group: 3
       N3:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 4
       C2:
         vdw-type: C
         mass-type: C
         charge: 0.54000
-        charge-type: null
         charge-group: 4
       N2:
         vdw-type: NT
         mass-type: N
         charge: -0.83000
-        charge-type: null
         charge-group: 5
       H21:
         vdw-type: H
         mass-type: H
         charge: 0.41500
-        charge-type: null
         charge-group: 5
       H22:
         vdw-type: H
         mass-type: H
         charge: 0.41500
-        charge-type: null
         charge-group: 5
       N1:
         vdw-type: NR
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 6
       H1:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 6
       C6:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 7
       O6:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 7
       C5:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 8
       N7:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 8
       C8:
         vdw-type: C
         mass-type: C
         charge: 0.44000
-        charge-type: null
         charge-group: 8
       H8:
         vdw-type: HC
         mass-type: H
         charge: 0.10000
-        charge-type: null
         charge-group: 8
       C2*:
         vdw-type: CH2r
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 9
       C3*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 9
       O3*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 10
     bonds:
       - indices: [ P, O1P ]
@@ -7163,139 +6681,116 @@ solute_blueprints:
         vdw-type: P_SI
         mass-type: P
         charge: 0.99000
-        charge-type: null
         charge-group: 0
       O1P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O2P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O5*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 0
       C5*:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C4*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.16000
-        charge-type: null
         charge-group: 2
       O4*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 2
       C1*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.20000
-        charge-type: null
         charge-group: 2
       N1:
         vdw-type: NR
         mass-type: N
         charge: -0.20000
-        charge-type: null
         charge-group: 3
       C6:
         vdw-type: C
         mass-type: C
         charge: 0.10000
-        charge-type: null
         charge-group: 3
       H6:
         vdw-type: HC
         mass-type: H
         charge: 0.10000
-        charge-type: null
         charge-group: 3
       C2:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 4
       O2:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 4
       N3:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 5
       C4:
         vdw-type: C
         mass-type: C
         charge: 0.54000
-        charge-type: null
         charge-group: 5
       N4:
         vdw-type: NT
         mass-type: N
         charge: -0.83000
-        charge-type: null
         charge-group: 6
       H41:
         vdw-type: H
         mass-type: H
         charge: 0.41500
-        charge-type: null
         charge-group: 6
       H42:
         vdw-type: H
         mass-type: H
         charge: 0.41500
-        charge-type: null
         charge-group: 6
       C5:
         vdw-type: C
         mass-type: C
         charge: -0.10000
-        charge-type: null
         charge-group: 7
       H5:
         vdw-type: HC
         mass-type: H
         charge: 0.10000
-        charge-type: null
         charge-group: 7
       C2*:
         vdw-type: CH2r
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 8
       C3*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 8
       O3*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 9
     bonds:
       - indices: [ P, O1P ]
@@ -7521,133 +7016,111 @@ solute_blueprints:
         vdw-type: P_SI
         mass-type: P
         charge: 0.99000
-        charge-type: null
         charge-group: 0
       O1P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O2P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O5*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 0
       C5*:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C4*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.16000
-        charge-type: null
         charge-group: 2
       O4*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 2
       C1*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.20000
-        charge-type: null
         charge-group: 2
       N1:
         vdw-type: NR
         mass-type: N
         charge: -0.20000
-        charge-type: null
         charge-group: 3
       C6:
         vdw-type: C
         mass-type: C
         charge: 0.10000
-        charge-type: null
         charge-group: 3
       H6:
         vdw-type: HC
         mass-type: H
         charge: 0.10000
-        charge-type: null
         charge-group: 3
       C2:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 4
       O2:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 4
       N3:
         vdw-type: NR
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 5
       H3:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 5
       C4:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 6
       O4:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 6
       C5:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 7
       C5M:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 7
       C2*:
         vdw-type: CH2r
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 8
       C3*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 8
       O3*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 9
     bonds:
       - indices: [ P, O1P ]
@@ -7868,163 +7341,136 @@ solute_blueprints:
         vdw-type: P_SI
         mass-type: P
         charge: 0.99000
-        charge-type: null
         charge-group: 0
       O1P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O2P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O5*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 0
       C5*:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C4*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.16000
-        charge-type: null
         charge-group: 2
       O4*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 2
       C1*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.20000
-        charge-type: null
         charge-group: 2
       N9:
         vdw-type: NR
         mass-type: N
         charge: -0.20000
-        charge-type: null
         charge-group: 3
       C4:
         vdw-type: C
         mass-type: C
         charge: 0.20000
-        charge-type: null
         charge-group: 3
       N3:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 4
       C2:
         vdw-type: C
         mass-type: C
         charge: 0.44000
-        charge-type: null
         charge-group: 4
       H2:
         vdw-type: HC
         mass-type: H
         charge: 0.10000
-        charge-type: null
         charge-group: 4
       N1:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 5
       C6:
         vdw-type: C
         mass-type: C
         charge: 0.54000
-        charge-type: null
         charge-group: 5
       N6:
         vdw-type: NT
         mass-type: N
         charge: -0.83000
-        charge-type: null
         charge-group: 6
       H61:
         vdw-type: H
         mass-type: H
         charge: 0.41500
-        charge-type: null
         charge-group: 6
       H62:
         vdw-type: H
         mass-type: H
         charge: 0.41500
-        charge-type: null
         charge-group: 6
       C5:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 7
       N7:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 7
       C8:
         vdw-type: C
         mass-type: C
         charge: 0.44000
-        charge-type: null
         charge-group: 7
       H8:
         vdw-type: HC
         mass-type: H
         charge: 0.10000
-        charge-type: null
         charge-group: 7
       C2*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.15000
-        charge-type: null
         charge-group: 8
       O2*:
         vdw-type: OA
         mass-type: O
         charge: -0.54800
-        charge-type: null
         charge-group: 8
       H2*:
         vdw-type: H
         mass-type: H
         charge: 0.39800
-        charge-type: null
         charge-group: 8
       C3*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 9
       O3*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 10
     bonds:
       - indices: [ P, O1P ]
@@ -8304,169 +7750,141 @@ solute_blueprints:
         vdw-type: P_SI
         mass-type: P
         charge: 0.99000
-        charge-type: null
         charge-group: 0
       O1P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O2P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O5*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 0
       C5*:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C4*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.16000
-        charge-type: null
         charge-group: 2
       O4*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 2
       C1*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.20000
-        charge-type: null
         charge-group: 2
       N9:
         vdw-type: NR
         mass-type: N
         charge: -0.20000
-        charge-type: null
         charge-group: 3
       C4:
         vdw-type: C
         mass-type: C
         charge: 0.20000
-        charge-type: null
         charge-group: 3
       N3:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 4
       C2:
         vdw-type: C
         mass-type: C
         charge: 0.54000
-        charge-type: null
         charge-group: 4
       N2:
         vdw-type: NT
         mass-type: N
         charge: -0.83000
-        charge-type: null
         charge-group: 5
       H21:
         vdw-type: H
         mass-type: H
         charge: 0.41500
-        charge-type: null
         charge-group: 5
       H22:
         vdw-type: H
         mass-type: H
         charge: 0.41500
-        charge-type: null
         charge-group: 5
       N1:
         vdw-type: NR
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 6
       H1:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 6
       C6:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 7
       O6:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 7
       C5:
         vdw-type: C
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 8
       N7:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 8
       C8:
         vdw-type: C
         mass-type: C
         charge: 0.44000
-        charge-type: null
         charge-group: 8
       H8:
         vdw-type: HC
         mass-type: H
         charge: 0.10000
-        charge-type: null
         charge-group: 8
       C2*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.15000
-        charge-type: null
         charge-group: 9
       O2*:
         vdw-type: OA
         mass-type: O
         charge: -0.54800
-        charge-type: null
         charge-group: 9
       H2*:
         vdw-type: H
         mass-type: H
         charge: 0.39800
-        charge-type: null
         charge-group: 9
       C3*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 10
       O3*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 11
     bonds:
       - indices: [ P, O1P ]
@@ -8753,151 +8171,126 @@ solute_blueprints:
         vdw-type: P_SI
         mass-type: P
         charge: 0.99000
-        charge-type: null
         charge-group: 0
       O1P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O2P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O5*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 0
       C5*:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C4*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.16000
-        charge-type: null
         charge-group: 2
       O4*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 2
       C1*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.20000
-        charge-type: null
         charge-group: 2
       N1:
         vdw-type: NR
         mass-type: N
         charge: -0.20000
-        charge-type: null
         charge-group: 3
       C6:
         vdw-type: C
         mass-type: C
         charge: 0.10000
-        charge-type: null
         charge-group: 3
       H6:
         vdw-type: HC
         mass-type: H
         charge: 0.10000
-        charge-type: null
         charge-group: 3
       C2:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 4
       O2:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 4
       N3:
         vdw-type: NR
         mass-type: N
         charge: -0.54000
-        charge-type: null
         charge-group: 5
       C4:
         vdw-type: C
         mass-type: C
         charge: 0.54000
-        charge-type: null
         charge-group: 5
       N4:
         vdw-type: NT
         mass-type: N
         charge: -0.83000
-        charge-type: null
         charge-group: 6
       H41:
         vdw-type: H
         mass-type: H
         charge: 0.41500
-        charge-type: null
         charge-group: 6
       H42:
         vdw-type: H
         mass-type: H
         charge: 0.41500
-        charge-type: null
         charge-group: 6
       C5:
         vdw-type: C
         mass-type: C
         charge: -0.10000
-        charge-type: null
         charge-group: 7
       H5:
         vdw-type: HC
         mass-type: H
         charge: 0.10000
-        charge-type: null
         charge-group: 7
       C2*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.15000
-        charge-type: null
         charge-group: 8
       O2*:
         vdw-type: OA
         mass-type: O
         charge: -0.54800
-        charge-type: null
         charge-group: 8
       H2*:
         vdw-type: H
         mass-type: H
         charge: 0.39800
-        charge-type: null
         charge-group: 8
       C3*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 9
       O3*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 10
     bonds:
       - indices: [ P, O1P ]
@@ -9145,145 +8538,121 @@ solute_blueprints:
         vdw-type: P_SI
         mass-type: P
         charge: 0.99000
-        charge-type: null
         charge-group: 0
       O1P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O2P:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       O5*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 0
       C5*:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 1
       C4*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.16000
-        charge-type: null
         charge-group: 2
       O4*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 2
       C1*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.20000
-        charge-type: null
         charge-group: 2
       N1:
         vdw-type: NR
         mass-type: N
         charge: -0.20000
-        charge-type: null
         charge-group: 3
       C6:
         vdw-type: C
         mass-type: C
         charge: 0.10000
-        charge-type: null
         charge-group: 3
       H6:
         vdw-type: HC
         mass-type: H
         charge: 0.10000
-        charge-type: null
         charge-group: 3
       C2:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 4
       O2:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 4
       N3:
         vdw-type: NR
         mass-type: N
         charge: -0.31000
-        charge-type: null
         charge-group: 5
       H3:
         vdw-type: H
         mass-type: H
         charge: 0.31000
-        charge-type: null
         charge-group: 5
       C4:
         vdw-type: C
         mass-type: C
         charge: 0.45000
-        charge-type: null
         charge-group: 6
       O4:
         vdw-type: O
         mass-type: O
         charge: -0.45000
-        charge-type: null
         charge-group: 6
       C5:
         vdw-type: C
         mass-type: C
         charge: -0.10000
-        charge-type: null
         charge-group: 7
       H5:
         vdw-type: HC
         mass-type: H
         charge: 0.10000
-        charge-type: null
         charge-group: 7
       C2*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.15000
-        charge-type: null
         charge-group: 8
       O2*:
         vdw-type: OA
         mass-type: O
         charge: -0.54800
-        charge-type: null
         charge-group: 8
       H2*:
         vdw-type: H
         mass-type: H
         charge: 0.39800
-        charge-type: null
         charge-group: 8
       C3*:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.00000
-        charge-type: null
         charge-group: 9
       O3*:
         vdw-type: OA
         mass-type: O
         charge: -0.36000
-        charge-type: null
         charge-group: 10
     bonds:
       - indices: [ P, O1P ]
@@ -9528,301 +8897,251 @@ solute_blueprints:
         vdw-type: CH3p
         mass-type: CH3
         charge: 0.40000
-        charge-type: null
         charge-group: 0
       C34:
         vdw-type: CH3p
         mass-type: CH3
         charge: 0.40000
-        charge-type: null
         charge-group: 0
       C35:
         vdw-type: CH3p
         mass-type: CH3
         charge: 0.40000
-        charge-type: null
         charge-group: 0
       N:
         vdw-type: NL
         mass-type: N
         charge: -0.50000
-        charge-type: null
         charge-group: 0
       C32:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.30000
-        charge-type: null
         charge-group: 0
       C31:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.40000
-        charge-type: null
         charge-group: 1
       O32:
         vdw-type: OA
         mass-type: O
         charge: -0.80000
-        charge-type: null
         charge-group: 1
       P:
         vdw-type: P_SI
         mass-type: P
         charge: 1.70000
-        charge-type: null
         charge-group: 1
       O33:
         vdw-type: OM
         mass-type: O
         charge: -0.80000
-        charge-type: null
         charge-group: 1
       O34:
         vdw-type: OM
         mass-type: O
         charge: -0.80000
-        charge-type: null
         charge-group: 1
       O31:
         vdw-type: OA
         mass-type: O
         charge: -0.70000
-        charge-type: null
         charge-group: 1
       C3:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.40000
-        charge-type: null
         charge-group: 2
       C2:
         vdw-type: CH1
         mass-type: CH1
         charge: 0.30000
-        charge-type: null
         charge-group: 2
       O21:
         vdw-type: OE
         mass-type: O
         charge: -0.70000
-        charge-type: null
         charge-group: 2
       C21:
         vdw-type: C
         mass-type: C
         charge: 0.70000
-        charge-type: null
         charge-group: 2
       O22:
         vdw-type: O
         mass-type: O
         charge: -0.70000
-        charge-type: null
         charge-group: 2
       C22:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 3
       C23:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 4
       C24:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 5
       C25:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 6
       C26:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 7
       C27:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 8
       C28:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 9
       C29:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 10
       C210:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 11
       C211:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 12
       C212:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 13
       C213:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 14
       C214:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 15
       C215:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 16
       C216:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 17
       C1:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.50000
-        charge-type: null
         charge-group: 18
       O11:
         vdw-type: OE
         mass-type: O
         charge: -0.70000
-        charge-type: null
         charge-group: 18
       C11:
         vdw-type: C
         mass-type: C
         charge: 0.80000
-        charge-type: null
         charge-group: 18
       O12:
         vdw-type: O
         mass-type: O
         charge: -0.60000
-        charge-type: null
         charge-group: 18
       C12:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 19
       C13:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 20
       C14:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 21
       C15:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 22
       C16:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 23
       C17:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 24
       C18:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 25
       C19:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 26
       C110:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 27
       C111:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 28
       C112:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 29
       C113:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 30
       C114:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 31
       C115:
         vdw-type: CH2
         mass-type: CH2
         charge: 0.00000
-        charge-type: null
         charge-group: 32
       C116:
         vdw-type: CH3
         mass-type: CH3
         charge: 0.00000
-        charge-type: null
         charge-group: 33
     bonds:
       - indices: [ C33, N ]
@@ -10139,7 +9458,6 @@ solute_blueprints:
         vdw-type: CH4
         mass-type: CH4
         charge: 0.00000
-        charge-type: null
         charge-group: 0
     bonds:
     angles:
@@ -10152,7 +9470,6 @@ solute_blueprints:
         vdw-type: AR
         mass-type: AR
         charge: 0.00000
-        charge-type: null
         charge-group: 0
     bonds:
     angles:
@@ -10165,31 +9482,26 @@ solute_blueprints:
         vdw-type: S
         mass-type: S
         charge: 0.54000
-        charge-type: null
         charge-group: 0
       IO1:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       IO2:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       IO3:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
       IO4:
         vdw-type: OM
         mass-type: O
         charge: -0.63500
-        charge-type: null
         charge-group: 0
     bonds:
       - indices: [ IS, IO1 ]
@@ -10222,7 +9534,6 @@ solute_blueprints:
         vdw-type: ZN2+
         mass-type: ZN
         charge: 2.00000
-        charge-type: null
         charge-group: 0
     bonds:
     angles:
@@ -10235,7 +9546,6 @@ solute_blueprints:
         vdw-type: NA+
         mass-type: NA
         charge: 1.00000
-        charge-type: null
         charge-group: 0
     bonds:
     angles:
@@ -10248,7 +9558,6 @@ solute_blueprints:
         vdw-type: CL-
         mass-type: CL
         charge: -1.00000
-        charge-type: null
         charge-group: 0
     bonds:
     angles:
@@ -10261,7 +9570,6 @@ solute_blueprints:
         vdw-type: CA2+
         mass-type: CA
         charge: 2.00000
-        charge-type: null
         charge-group: 0
     bonds:
     angles:
@@ -10274,7 +9582,6 @@ solute_blueprints:
         vdw-type: MG2+
         mass-type: MG
         charge: 2.00000
-        charge-type: null
         charge-group: 0
     bonds:
     angles:
@@ -10287,7 +9594,6 @@ solute_blueprints:
         vdw-type: CU1+
         mass-type: CU
         charge: 1.00000
-        charge-type: null
         charge-group: 0
     bonds:
     angles:
@@ -10300,7 +9606,6 @@ solute_blueprints:
         vdw-type: CU2+
         mass-type: CU
         charge: 2.00000
-        charge-type: null
         charge-group: 0
     bonds:
     angles:
@@ -10313,19 +9618,16 @@ solute_blueprints:
         vdw-type: OW
         mass-type: O
         charge: -0.82000
-        charge-type: null
         charge-group: 0
       HW1:
         vdw-type: H
         mass-type: H
         charge: 0.41000
-        charge-type: null
         charge-group: 0
       HW2:
         vdw-type: H
         mass-type: H
         charge: 0.41000
-        charge-type: null
         charge-group: 0
     bonds:
       - indices: [ OW, HW1 ]
@@ -10344,19 +9646,16 @@ solute_blueprints:
         vdw-type: OW
         mass-type: O
         charge: -0.84760
-        charge-type: null
         charge-group: 0
       HW1:
         vdw-type: H
         mass-type: H
         charge: 0.42380
-        charge-type: null
         charge-group: 0
       HW2:
         vdw-type: H
         mass-type: H
         charge: 0.42380
-        charge-type: null
         charge-group: 0
     bonds:
       - indices: [ OW, HW1 ]
@@ -10375,31 +9674,26 @@ solute_blueprints:
         vdw-type: CChl
         mass-type: C
         charge: 0.17900
-        charge-type: null
         charge-group: 0
       HChl:
         vdw-type: HChl
         mass-type: H
         charge: 0.08200
-        charge-type: null
         charge-group: 0
       CLCh1:
         vdw-type: CLChl
         mass-type: CL
         charge: -0.08700
-        charge-type: null
         charge-group: 0
       CLCh2:
         vdw-type: CLChl
         mass-type: CL
         charge: -0.08700
-        charge-type: null
         charge-group: 0
       CLCh3:
         vdw-type: CLChl
         mass-type: CL
         charge: -0.08700
-        charge-type: null
         charge-group: 0
     bonds:
       - indices: [ CChl, CLCh1 ]
@@ -10430,25 +9724,21 @@ solute_blueprints:
         vdw-type: SDmso
         mass-type: S
         charge: 0.12753
-        charge-type: null
         charge-group: 0
       ODmso:
         vdw-type: ODmso
         mass-type: O
         charge: -0.44753
-        charge-type: null
         charge-group: 0
       CDms1:
         vdw-type: CDmso
         mass-type: CH3
         charge: 0.16000
-        charge-type: null
         charge-group: 0
       CDms2:
         vdw-type: CDmso
         mass-type: CH3
         charge: 0.16000
-        charge-type: null
         charge-group: 0
     bonds:
       - indices: [ SDmso, ODmso ]
@@ -10473,19 +9763,16 @@ solute_blueprints:
         vdw-type: OMet
         mass-type: O
         charge: -0.67400
-        charge-type: null
         charge-group: 0
       HMet:
         vdw-type: H
         mass-type: H
         charge: 0.40800
-        charge-type: null
         charge-group: 0
       CMet:
         vdw-type: CMet
         mass-type: CH3
         charge: 0.26600
-        charge-type: null
         charge-group: 0
     bonds:
       - indices: [ Omet, HMet ]
@@ -10504,31 +9791,26 @@ solute_blueprints:
         vdw-type: CCl4
         mass-type: C
         charge: 0.00000
-        charge-type: null
         charge-group: 0
       CLCl1:
         vdw-type: CLCl4
         mass-type: CL
         charge: 0.00000
-        charge-type: null
         charge-group: 0
       CLCl2:
         vdw-type: CLCl4
         mass-type: CL
         charge: 0.00000
-        charge-type: null
         charge-group: 0
       CLCl3:
         vdw-type: CLCl4
         mass-type: CL
         charge: 0.00000
-        charge-type: null
         charge-group: 0
       CLCl4:
         vdw-type: CLCl4
         mass-type: CL
         charge: 0.00000
-        charge-type: null
         charge-group: 0
     bonds:
       - indices: [ CCl4, CLCl1 ]
@@ -10559,43 +9841,36 @@ solute_blueprints:
         vdw-type: H
         mass-type: H
         charge: 0.41000
-        charge-type: null
         charge-group: 0
       OT:
         vdw-type: OTFE
         mass-type: O
         charge: -0.62500
-        charge-type: null
         charge-group: 0
       CH2T:
         vdw-type: CHTFE
         mass-type: CH2
         charge: 0.27300
-        charge-type: null
         charge-group: 0
       CT:
         vdw-type: CTFE
         mass-type: C
         charge: 0.45200
-        charge-type: null
         charge-group: 0
       F1T:
         vdw-type: FTFE
         mass-type: F
         charge: -0.17000
-        charge-type: null
         charge-group: 0
       F2T:
         vdw-type: FTFE
         mass-type: F
         charge: -0.17000
-        charge-type: null
         charge-group: 0
       F3T:
         vdw-type: FTFE
         mass-type: F
         charge: -0.17000
-        charge-type: null
         charge-group: 0
     bonds:
       - indices: [ HT, OT ]
@@ -10638,49 +9913,41 @@ solute_blueprints:
         vdw-type: OUrea
         mass-type: O
         charge: -0.39000
-        charge-type: null
         charge-group: 0
       CU:
         vdw-type: CUrea
         mass-type: C
         charge: 0.14200
-        charge-type: null
         charge-group: 0
       N1U:
         vdw-type: NUrea
         mass-type: N
         charge: -0.54200
-        charge-type: null
         charge-group: 0
       H11U:
         vdw-type: H
         mass-type: H
         charge: 0.33300
-        charge-type: null
         charge-group: 0
       H12U:
         vdw-type: H
         mass-type: H
         charge: 0.33300
-        charge-type: null
         charge-group: 0
       N2U:
         vdw-type: NUrea
         mass-type: N
         charge: -0.54200
-        charge-type: null
         charge-group: 0
       H21U:
         vdw-type: H
         mass-type: H
         charge: 0.33300
-        charge-type: null
         charge-group: 0
       H22U:
         vdw-type: H
         mass-type: H
         charge: 0.33300
-        charge-type: null
         charge-group: 0
     bonds:
       - indices: [ OU, CU ]
