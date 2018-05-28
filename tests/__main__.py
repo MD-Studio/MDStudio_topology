@@ -80,4 +80,9 @@ if __name__ == '__main__':
     #system.add_node(type=Type.Molecule, node=system )
     print ( "___TEST_EDGES__" )
     print(system)
-    print(system.query_edges(query={'type':EdgeType.Angle}))
+
+    for edge in system.query_edges(query={'type':EdgeType.Angle}).edges:
+        print(edge)
+
+    for node in system.query_edges(query={'type':EdgeType.Angle}).nodes:
+        print(node)
