@@ -1,5 +1,10 @@
+import sys
+import argparse
+
 from lie_graph import GraphAxis
 from enum import Enum
+
+from lie_topology.parsers.topology import read_mdtop
 
 class NodeType(Enum):
     Atom     = 1
@@ -13,7 +18,7 @@ class EdgeType(Enum):
     Angle    = 2
     Dihedral = 3
 
-if __name__ == '__main__':
+def verify_graph():
 
     print('running debug version of lie_topology')
     system = GraphAxis()
@@ -86,3 +91,22 @@ if __name__ == '__main__':
 
     for node in system.query_edges(query={'type':EdgeType.Angle}).nodes:
         print(node)
+
+def main(argv):
+
+    parser = argparse.ArgumentParser(description='Convert an atb mtb file to polff using the field fit atom types')
+    parser.add_argument('--mdtop', required=True, type=str, help='a mdtop file')
+    args = parser.parse_args(argv)
+
+    with open(args.mdtop, 'r') as ifs:
+        read_mdtop(ifs)
+
+# commands
+# pipenv install --skip-lock --dev --sequential
+# pipenv shell
+# pip install -e components/my_component
+# python -m my_component
+
+if __name__ == "__main__":
+    #raise Exception("DISABLED AS TEMPLATES WERE MANUALLY EDITED, KNOWN WHAT YOU DO BEFORE REACTIVATING")
+    main(sys.argv[1:])
