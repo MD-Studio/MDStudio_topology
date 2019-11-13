@@ -29,15 +29,15 @@ import os
 import json
 import numpy as np
 
-from lie_topology.common.tokenizer          import Tokenizer
-from lie_topology.common.exception          import LieTopologyException
-from lie_topology.molecule.molecule         import Molecule
-from lie_topology.molecule.bond             import Bond
-from lie_topology.molecule.angle            import Angle
-from lie_topology.molecule.dihedral         import Dihedral
-from lie_topology.molecule.improper         import Improper
-from lie_topology.molecule.vsite            import InPlaneSite
-from lie_topology.molecule.reference        import AtomReference
+from mdstudio_topology.common.tokenizer          import Tokenizer
+from mdstudio_topology.common.exception          import LieTopologyException
+from mdstudio_topology.molecule.molecule         import Molecule
+from mdstudio_topology.molecule.bond             import Bond
+from mdstudio_topology.molecule.angle            import Angle
+from mdstudio_topology.molecule.dihedral         import Dihedral
+from mdstudio_topology.molecule.improper         import Improper
+from mdstudio_topology.molecule.vsite            import InPlaneSite
+from mdstudio_topology.molecule.reference        import AtomReference
 
 def _GenAatopRef( solute, index ):
 

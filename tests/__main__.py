@@ -4,7 +4,7 @@ import argparse
 from lie_graph import GraphAxis
 from enum import Enum
 
-from lie_topology.parsers.topology import read_mdtop
+from mdstudio_topology.parsers.topology import read_mdtop
 
 class NodeType(Enum):
     Atom     = 1
@@ -20,7 +20,7 @@ class EdgeType(Enum):
 
 def verify_graph():
 
-    print('running debug version of lie_topology')
+    print('running debug version of mdstudio_topology')
     system = GraphAxis()
 
     # testing a molecule graph setup

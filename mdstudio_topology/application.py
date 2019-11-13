@@ -70,7 +70,5 @@ class TopologyComponent(ComponentSession):
 
         self.log.info('debug_sytem {sys:s}', sys=str(response["system"]))
 
-
     def report_delay(self, direction, delay):
         self.log.info('{direction:>20} delay: {delay:>8.2f} ms', direction=direction, delay=delay.total_seconds() * 1000)
-

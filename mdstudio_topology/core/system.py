@@ -2,8 +2,8 @@ import uid
 
 from collections import OrderedDict
 
-from lie_topology.core.group import Group
-from lie_topology.core.uuid import UUIDGenerator
+from mdstudio_topology.core.group import Group
+from mdstudio_topology.core.uuid import UUIDGenerator
 
 class System(object):
 

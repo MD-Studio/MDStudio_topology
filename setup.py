@@ -1,11 +1,11 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# package: lie_docking
+# package: mdstudio_topology
 # file: setup.py
 #
-# Part of ‘lie_docking’, a package providing molecular docking functionality
-# for the LIEStudio package.
+# Part of ‘mdstudio_topology’, a package providing component wrapping
+# topology parsers and writers for theMDStudio package.
 #
 # Copyright © 2018 K.M.Visscher, VU University Amsterdam, the Netherlands
 #
@@ -24,7 +24,7 @@
 
 from setuptools import setup, find_packages
 
-distribution_name = 'lie_topology'
+distribution_name = 'mdstudio_topology'
 
 setup(
     name=distribution_name,
@@ -32,12 +32,12 @@ setup(
     description='MDStudio component wrapping topology parsers and writers',
     author='Koen M. Visscher, VU University, Amsterdam, The Netherlands',
     author_email=['k.m.visscher@vu.nl'],
-    url='https://github.com/MD-Studio/lie_topology.git',
+    url='https://github.com/MD-Studio/MDStudio_topology.git',
     license='Apache Software License 2.0',
-    keywords='MDStudio molecular simulation',
+    keywords='MDStudio molecular simulation topology',
     platforms=['Any'],
     packages=find_packages(),
-    package_data={'lie_topology': ['data/*']},
+    package_data={'mdstudio_topology': ['data/*']},
     py_modules=[distribution_name],
     install_requires=['mdstudio', 'numpy','lie_graph'],
     include_package_data=False,

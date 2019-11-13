@@ -30,11 +30,11 @@ import numpy as np
 
 from copy import deepcopy
 
-from lie_topology.core.tokenizer import Tokenizer
-from lie_topology.core.structure import Structure, Time
-from lie_topology.core.topology  import Topology
-from lie_topology.core.crystal   import Lattice
-from lie_topology.core.group     import Group
+from mdstudio_topology.core.tokenizer import Tokenizer
+from mdstudio_topology.core.structure import Structure, Time
+from mdstudio_topology.core.topology  import Topology
+from mdstudio_topology.core.crystal   import Lattice
+from mdstudio_topology.core.group     import Group
 
 def _AppendTopological( activeTopology, resNum, resName, atomName, atomNum ):
 

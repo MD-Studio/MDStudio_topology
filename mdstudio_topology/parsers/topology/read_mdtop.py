@@ -1,7 +1,7 @@
 
 from lie_graph import GraphAxis
-from lie_topology.core.io.yaml.yaml_ext import ordered_load
-from lie_topology.core.topology.nodes import TopologyNode
+from mdstudio_topology.core.io.yaml.yaml_ext import ordered_load
+from mdstudio_topology.core.topology.nodes import TopologyNode
 
 def read_meta_data(ff_definitions, ff_graph):
 

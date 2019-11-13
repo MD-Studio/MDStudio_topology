@@ -3,24 +3,24 @@ import json
 import yaml
 
 
-from lie_topology.molecule.molecule import Molecule
-from lie_topology.molecule.blueprint import Blueprint
-from lie_topology.molecule.structure import Structure
-from lie_topology.parsers.cnfParser import ParseCnf
-from lie_topology.parsers.pdbParser import ParsePdb
-from lie_topology.parsers.groParser import ParseGro
-from lie_topology.parsers.sdfParser import ParseSdf
-from lie_topology.parsers.mol2Parser import ParseMol2
-from lie_topology.parsers.mdtopParser import ParseMdtop
-from lie_topology.parsers.mdmtbParser import ParseMDMtb
+from mdstudio_topology.molecule.molecule import Molecule
+from mdstudio_topology.molecule.blueprint import Blueprint
+from mdstudio_topology.molecule.structure import Structure
+from mdstudio_topology.parsers.cnfParser import ParseCnf
+from mdstudio_topology.parsers.pdbParser import ParsePdb
+from mdstudio_topology.parsers.groParser import ParseGro
+from mdstudio_topology.parsers.sdfParser import ParseSdf
+from mdstudio_topology.parsers.mol2Parser import ParseMol2
+from mdstudio_topology.parsers.mdtopParser import ParseMdtop
+from mdstudio_topology.parsers.mdmtbParser import ParseMDMtb
 
-from lie_topology.utilities.make_topology import MakeSequence
+from mdstudio_topology.utilities.make_topology import MakeSequence
 
-from lie_topology.writers.cnfWriter import WriteCnf
-from lie_topology.writers.gromosTopologyWriter import WriteGromosTopology
+from mdstudio_topology.writers.cnfWriter import WriteCnf
+from mdstudio_topology.writers.gromosTopologyWriter import WriteGromosTopology
 
-from lie_topology.forcefield.physconst import PhysicalConstants
-from lie_topology.molecule.crystal import BoxVectorsToLattice, LatticeToBoxVectors
+from mdstudio_topology.forcefield.physconst import PhysicalConstants
+from mdstudio_topology.molecule.crystal import BoxVectorsToLattice, LatticeToBoxVectors
 
 
 def WriteSimJson( forcefield, coordinates ):
@@ -108,7 +108,7 @@ import jsonschema
 def main():
     
     # test atom schema
-    with open("lie_topology/schemas/resources/atom.v1.json", 'r') as ifs:
+    with open("mdstudio_topology/schemas/resources/atom.v1.json", 'r') as ifs:
 
         schema = json.load(ifs)
 
@@ -116,7 +116,7 @@ def main():
 
         jsonschema.validate( test_atom, schema)
 
-    with open("lie_topology/schemas/resources/bond.v1.json", 'r') as ifs:
+    with open("mdstudio_topology/schemas/resources/bond.v1.json", 'r') as ifs:
 
         schema = json.load(ifs)
 
@@ -127,7 +127,7 @@ def main():
 """
 
 from mdstudio.runner import main
-from lie_topology.application import TopologyComponent
+from mdstudio_topology.application import TopologyComponent
 
 if __name__ == '__main__':
     main(TopologyComponent)

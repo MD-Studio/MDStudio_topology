@@ -2,7 +2,7 @@ import uid
 
 from collections import OrderedDict
 
-from lie_topology.core.atom import Atom
+from mdstudio_topology.core.atom import Atom
 
 class Molecule(object):
 

@@ -2,7 +2,7 @@ import uid
 
 from collections import OrderedDict
 
-from lie_topology.core.molecule import Molecule
+from mdstudio_topology.core.molecule import Molecule
 
 class Group(object):
 
